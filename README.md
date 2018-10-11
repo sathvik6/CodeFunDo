@@ -1,5 +1,5 @@
 #idea for codefundo++
-fjs 
+
 To Create
 1.Anti Disaster application
 -Alerts users ahead of disasters
@@ -28,4 +28,4 @@ To Create
 
 5.Prediction
 -From the result and matching data we can infer an Hypothesis and prove it to be true for disasters that have taken place
--With our final set of conditional logic we can predict upcoming disasters.
+-With our final set of conditional logic we can predict upcoming disasters
