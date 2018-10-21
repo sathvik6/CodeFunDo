@@ -11,8 +11,9 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
-url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
-names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
+url = "https://github.com/sathvik6/CodeFunDo/blob/master/temperature.csv"
+names=['San Diego','Las Vegas','Phoenix	Albuquerque','Denver','	San Antonio','Dallas','	Houston	','Kansas City','Minneapolis','Saint Louis','Chicago','Nashville','Indianapolis','Atlanta','Detroit','Jacksonville','Charlotte','Miami','Pittsburgh','Toronto','Philadelphia','New York','Montreal']
+
 dataset = pandas.read_csv(url, names=names)
 
 print(dataset.groupby('class').size())
